@@ -55,6 +55,12 @@ ScrollReveal().reveal(".project-wrapper__text", {
   origin: window.innerWidth > 768 ? "left" : "bottom",
 });
 
+ScrollReveal().reveal(".project-wrapper__text-btns", {
+  ...defaultProps,
+  delay: 600,
+  origin: window.innerWidth > 768 ? "left" : "bottom",
+});
+
 ScrollReveal().reveal(".project-wrapper__image", {
   ...defaultProps,
   delay: 600,
